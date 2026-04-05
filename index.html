@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>마틴인철 프로필</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            /* 배경 그라데이션 */
+            background: linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%);
+            font-family: 'Malgun Gothic', sans-serif;
+        }
+
+        .profile-header {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .profile-img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid white;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #333;
+            margin: 0;
+        }
+
+        .divider {
+            width: 80%;
+            max-width: 400px;
+            height: 1px;
+            background-color: rgba(0, 0, 0, 0.2);
+            margin: 20px 0;
+        }
+
+        .btn {
+            display: block;
+            width: 280px;
+            padding: 15px;
+            margin: 10px 0;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            border-radius: 50px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+        }
+
+        .instagram {
+            background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+        }
+
+        .youtube {
+            background-color: #FF0000;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile-header">
+        <img src="https://yt3.googleusercontent.com/5XjX3rM25m12aJ_kxUJjHxWT-QbujJeg2-MkNxpATODtblIEFTqXA_bYoYNLVOZvx8KSiW9DbQ=s160-c-k-c0x00ffffff-no-rj" alt="프로필" class="profile-img">
+        <h1>마틴인철</h1>
+    </div>
+
+    <div class="divider"></div>
+
+    <a href="https://www.instagram.com/matininceol810?igsh=MW10c2VpaDYyY2VoaQ==" class="btn instagram" target="_blank">인스타그램</a>
+    
+    <a href="https://www.youtube.com/@%EB%A7%88%ED%8B%B4%EC%9D%B8%EC%B2%A0" class="btn youtube" target="_blank">유튜브</a>
+
+</body>
+</html>
